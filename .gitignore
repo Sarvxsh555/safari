@@ -161,3 +161,13 @@ data/external/*
 outputs/*
 !outputs/.gitkeep
 *.log
+
+# Local runtime / dev server artifacts
+backend.stdout.log
+backend.stderr.log
+uvicorn.stdout.log
+uvicorn.stderr.log
+
+# OS clutter
+.DS_Store
+Thumbs.db
